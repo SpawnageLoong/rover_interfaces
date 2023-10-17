@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PwmArray.msg"
   "msg/SensorData.msg"
+  "msg/CameraCmd.msg"
  )
 
 ament_package()
